@@ -1,18 +1,15 @@
-# create-svelte
+# 3D with Svelte and Babylon.js
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Project template incorporates [Svelte](https://svelte.dev) with [Babylon.js](https://www.babylonjs.com/).
 
-## Creating a project
+![screencapture](https://user-images.githubusercontent.com/1213591/188288763-691a86e4-b65d-4dc9-82b0-d9dc16311424.gif)
 
-If you're seeing this, you've probably already done this step. Congrats!
+This project includes:
+- [Svelte](https://svelte.dev)
+- [SvelteKit](https://kit.svelte.dev/)
+- [Three.js](https://www.babylonjs.com/)
+- [Vite](https://vitejs.dev/)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
 ## Developing
 
