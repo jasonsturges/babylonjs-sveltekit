@@ -1,21 +1,35 @@
 # 3D with Svelte and Babylon.js
 
-This project template incorporates [Svelte](https://svelte.dev) with [Babylon.js](https://www.babylonjs.com/).
+Project template incorporates [Svelte](https://svelte.dev) with [Babylon.js](https://www.babylonjs.com/).
 
-![screencapture](https://miro.medium.com/max/1400/1*SwxJwP059B_jiHL_wtCcEw.gif)
+![screencapture](https://user-images.githubusercontent.com/1213591/188288763-691a86e4-b65d-4dc9-82b0-d9dc16311424.gif)
 
-## Get started
+This project includes:
+- [Svelte](https://svelte.dev)
+- [SvelteKit](https://kit.svelte.dev/)
+- [Three.js](https://www.babylonjs.com/)
+- [Vite](https://vitejs.dev/)
 
-Install the dependencies...
 
-```bash
-npm install
-```
+## Developing
 
-...then start [Rollup](https://rollupjs.org):
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running.
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
