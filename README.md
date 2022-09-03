@@ -7,7 +7,7 @@ Project template incorporates [Svelte](https://svelte.dev) with [Babylon.js](htt
 This project includes:
 - [Svelte](https://svelte.dev)
 - [SvelteKit](https://kit.svelte.dev/)
-- [Three.js](https://www.babylonjs.com/)
+- [Babylon.js](https://www.babylonjs.com/)
 - [Vite](https://vitejs.dev/)
 
 
