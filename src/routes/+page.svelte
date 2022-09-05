@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>Babylon.js Svelte Boilerplate</title>
+	<title>Babylon.js Sveltekit</title>
 	<meta name="description" content="Three.js example app built with Svelte" />
 </svelte:head>
 
