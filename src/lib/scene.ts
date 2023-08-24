@@ -1,6 +1,6 @@
 import * as BABYLON from 'babylonjs';
 
-export const createScene = (canvas) => {
+export const createScene = (canvas:HTMLCanvasElement) => {
   const engine = new BABYLON.Engine(canvas, true);
   const scene = new BABYLON.Scene(engine);
   scene.clearColor = new BABYLON.Color4(0.9, 0.3, 0.3, 1);
